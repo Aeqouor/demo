@@ -21,8 +21,6 @@ public class SchedulesServiceImpl implements ScheduleService {
     @Override
     public ScheduleResponseDto findScheduleById(long id) {
 
-        Schedule schedule = scheduleRepositrory.findScheduleByIds(id);
-
         return null;
     }
 }
